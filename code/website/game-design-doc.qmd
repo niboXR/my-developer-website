@@ -1,0 +1,43 @@
+---
+title: "Game Design Document"
+format: html
+---
+
+# Overview
+
+## Mission and Vision
+The vision is to create a world sized sanctuary you can share; a safe digital space to find comfort, excitement, and joy in solitude or alongside your people.
+
+The mission is to redefine our lived experiences by creating a digital world that fosters experiences as meaningful as the ones from the physical world.
+
+## Game description
+
+**INSERT WORKING TITLE** is a open-globe action adventure game with support for up to 64 simultaneous players and built from the ground up for physical immersion. 
+
+## Inspirations
+
+No Mans Sky
+
+Zelda BOTW
+
+Zenith: The Last City, Karnage Chronicles, Vengeful Rites
+
+So much anime
+
+
+# Design
+
+
+## Character
+
+  
+### Character rig
+  
+  
+### Character stats
+  
+  
+### Character standing
+  
+
+## Environment

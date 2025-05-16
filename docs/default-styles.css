@@ -1,0 +1,5 @@
+/* Hide the icon but preserve space */
+.nav-link.no-icon i {
+  visibility: hidden;
+}
+
