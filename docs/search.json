@@ -39,7 +39,7 @@
     "href": "game-design-doc.html#character",
     "title": "Game Design Document",
     "section": "Character",
-    "text": "Character\n\nCharacter rig\n\n\nCharacter stats\n\n\nCharacter standing"
+    "text": "Character\n\nCharacter stats\n\nPhysical stats\nA character has three physical stats:\n\nVitality - determines how much damage a character can take. A character’s base vitality stat is 100 life points.\nStrength - determines how much damage a character can deal. A character’s base strength stat is 10 damage. This means that a fully effective blow will deal 10 points in damage to another character’s vitality or an item’s durability.\nSpeed - determines how quickly a character can move. A character’s base walking speed is INSERT WLK_SPD and base running speed is INSERT RUN_SPD.\n\nThese base values are adjusted slightly based on the character build 1. See Table 1 for a generalized overview of this system based on character BMI 2.\nTable 1. Impact of BMI on character physical stats\n\n\n🔺stat boost ➖no change 🔻stat penalty\n\n\n\n\n\n\n\n\nCharacter\nBMI\nVitality\nStrength\nSpeed\n\n\n\n\nLow\n➖\n🔻\n🔺\n\n\nMed\n➖\n➖\n➖\n\n\nHigh\n🔺\n🔺\n🔻🔻\n\n\n\nPhysical stats can be further modified by items and consumables.\n\n\nStanding"
   },
   {
     "objectID": "game-design-doc.html#environment",
@@ -68,5 +68,12 @@
     "title": "Game Design Document",
     "section": "",
     "text": "No Mans Sky\nZelda BOTW\nZenith: The Last City, Karnage Chronicles, Vengeful Rites\nSo much anime"
+  },
+  {
+    "objectID": "game-design-doc.html#footnotes",
+    "href": "game-design-doc.html#footnotes",
+    "title": "Game Design Document",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis design is inspired by Bonelab’s avatar system and intended to incentivize thoughtful and diverse character creation.↩︎\nBody Mass Index is calculated from a person’s height and weight. While this measure is considered imperfect for real-world applications, it provides a single measure from which base stats can be derived.↩︎"
   }
 ]

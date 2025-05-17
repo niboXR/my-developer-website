@@ -117,9 +117,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#character" id="toc-character" class="nav-link" data-scroll-target="#character">Character</a>
   <ul class="collapse">
-  <li><a href="#character-rig" id="toc-character-rig" class="nav-link" data-scroll-target="#character-rig">Character rig</a></li>
   <li><a href="#character-stats" id="toc-character-stats" class="nav-link" data-scroll-target="#character-stats">Character stats</a></li>
-  <li><a href="#character-standing" id="toc-character-standing" class="nav-link" data-scroll-target="#character-standing">Character standing</a></li>
   </ul></li>
   <li><a href="#environment" id="toc-environment" class="nav-link" data-scroll-target="#environment">Environment</a></li>
   </ul></li>
@@ -175,14 +173,62 @@ ul.task-list li input[type="checkbox"] {
 <h1 data-number="2"><span class="header-section-number">2</span> Design</h1>
 <section id="character" class="level2">
 <h2 class="anchored" data-anchor-id="character">Character</h2>
-<section id="character-rig" class="level3">
-<h3 class="anchored" data-anchor-id="character-rig">Character rig</h3>
-</section>
 <section id="character-stats" class="level3">
 <h3 class="anchored" data-anchor-id="character-stats">Character stats</h3>
+<section id="physical-stats" class="level4">
+<h4 class="anchored" data-anchor-id="physical-stats">Physical stats</h4>
+<p>A character has three physical stats:</p>
+<ul>
+<li><p><strong>Vitality</strong> - determines how much damage a character can take. A character’s base vitality stat is <strong>100</strong> life points.</p></li>
+<li><p><strong>Strength</strong> - determines how much damage a character can deal. A character’s base strength stat is <strong>10</strong> damage. This means that a fully effective blow will deal <strong>10</strong> points in damage to another character’s vitality or an item’s durability.</p></li>
+<li><p><strong>Speed</strong> - determines how quickly a character can move. A character’s base walking speed is <strong>INSERT WLK_SPD</strong> and base running speed is <strong>INSERT RUN_SPD</strong>.</p></li>
+</ul>
+<p>These base values are adjusted slightly based on the character build <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. See Table 1 for a generalized overview of this system based on character BMI <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<p><strong>Table 1. Impact of BMI on character physical stats</strong></p>
+<hr>
+<table class="caption-top table">
+<caption>🔺stat boost ➖no change 🔻stat penalty</caption>
+<colgroup>
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 15%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Character</p>
+<p>BMI</p></th>
+<th>Vitality</th>
+<th>Strength</th>
+<th>Speed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Low</td>
+<td>➖</td>
+<td>🔻</td>
+<td>🔺</td>
+</tr>
+<tr class="even">
+<td>Med</td>
+<td>➖</td>
+<td>➖</td>
+<td>➖</td>
+</tr>
+<tr class="odd">
+<td>High</td>
+<td>🔺</td>
+<td>🔺</td>
+<td>🔻🔻</td>
+</tr>
+</tbody>
+</table>
+<p>Physical stats can be further modified by items and consumables.</p>
 </section>
-<section id="character-standing" class="level3">
-<h3 class="anchored" data-anchor-id="character-standing">Character standing</h3>
+<section id="standing" class="level4">
+<h4 class="anchored" data-anchor-id="standing">Standing</h4>
+</section>
 </section>
 </section>
 <section id="environment" class="level2">
@@ -192,7 +238,14 @@ ul.task-list li input[type="checkbox"] {
 </section>
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This design is inspired by Bonelab’s avatar system and intended to incentivize thoughtful and diverse character creation.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Body Mass Index is calculated from a person’s height and weight. While this measure is considered imperfect for real-world applications, it provides a single measure from which base stats can be derived.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
