@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: ../docs  # GitHub Pages will serve from here
+  title: "Pluto Interactive Arts"
+  render: 
+    - index.qmd
+    - game-design-doc.qmd
+website: 
+  title: Pluto IA
+  navbar:
+    search: false
+    # tools:
+    #   - icon: github
+    #     menu:
+    #       - text: View on Github
+    #         href: https://github.com/niboXR/first-game
+    #       - text: Project tasks and timeline
+    #         href: https://github.com/users/niboXR/projects/3
+    #background: dark
+    left:
+      - href: game-design-doc.qmd
+        text: Solara
+format:
+  html:
+    theme: custom.scss
+      # light: custom.scss
+      # dark: custom-dark.scss # I am trying to mimic brite but having difficulties

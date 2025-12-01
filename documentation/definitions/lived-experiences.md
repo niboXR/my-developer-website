@@ -1,0 +1,1 @@
+The sum of all experiences that appeal to one or more of the five physical human senses

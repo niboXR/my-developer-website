@@ -1,79 +1,93 @@
 [
   {
-    "objectID": "game-design-doc.html#core",
-    "href": "game-design-doc.html#core",
-    "title": "Game Design Document",
-    "section": "4.1 Core",
-    "text": "4.1 Core"
-  },
-  {
-    "objectID": "game-design-doc.html#secondary",
-    "href": "game-design-doc.html#secondary",
-    "title": "Game Design Document",
-    "section": "4.2 Secondary",
-    "text": "4.2 Secondary"
-  },
-  {
     "objectID": "game-design-doc.html",
     "href": "game-design-doc.html",
-    "title": "Game Design Document",
+    "title": "Solara Game Design Document",
     "section": "",
-    "text": "The vision is to create a world sized sanctuary you can share; a safe digital space to find comfort, excitement, and joy in solitude or alongside your people.\nThe mission is to redefine our lived experiences by creating a digital world that fosters experiences as meaningful as the ones from the physical world.\n\n\n\nINSERT WORKING TITLE is a open-globe action adventure game with support for up to 64 simultaneous players and built from the ground up for physical immersion.\n\n\n\nNo Mans Sky\nZelda BOTW\nZenith: The Last City, Karnage Chronicles, Vengeful Rites\nSo much anime"
-  },
-  {
-    "objectID": "game-design-doc.html#description-include-genre-player-support-and-platforms",
-    "href": "game-design-doc.html#description-include-genre-player-support-and-platforms",
-    "title": "Game Design Document",
-    "section": "2.2 Description: Include genre, player support, and platforms",
-    "text": "2.2 Description: Include genre, player support, and platforms\nA 64 player open-globe action adventure game built from the ground up for physical immersion."
-  },
-  {
-    "objectID": "game-design-doc.html#title-insert-working-title",
-    "href": "game-design-doc.html#title-insert-working-title",
-    "title": "Game Design Document",
-    "section": "2.1 Title: INSERT WORKING TITLE",
-    "text": "2.1 Title: INSERT WORKING TITLE"
-  },
-  {
-    "objectID": "game-design-doc.html#character",
-    "href": "game-design-doc.html#character",
-    "title": "Game Design Document",
-    "section": "Character",
-    "text": "Character\n\nCharacter stats\n\nPhysical stats\nA character has three physical stats:\n\nVitality - determines how much damage a character can take. A character’s base vitality stat is 100 life points.\nStrength - determines how much damage a character can deal. A character’s base strength stat is 10 damage. This means that a fully effective blow will deal 10 points in damage to another character’s vitality or an item’s durability.\nSpeed - determines how quickly a character can move. A character’s base walking speed is INSERT WLK_SPD and base running speed is INSERT RUN_SPD.\n\nThese base values are adjusted slightly based on the character build 1. See Table 1 for a generalized overview of this system based on character BMI 2.\nTable 1. Impact of BMI on character physical stats\n\n\n🔺stat boost ➖no change 🔻stat penalty\n\n\n\n\n\n\n\n\nCharacter\nBMI\nVitality\nStrength\nSpeed\n\n\n\n\nLow\n➖\n🔻\n🔺\n\n\nMed\n➖\n➖\n➖\n\n\nHigh\n🔺\n🔺\n🔻🔻\n\n\n\nPhysical stats can be further modified by items and consumables.\n\n\nStanding"
-  },
-  {
-    "objectID": "game-design-doc.html#environment",
-    "href": "game-design-doc.html#environment",
-    "title": "Game Design Document",
-    "section": "Environment",
-    "text": "Environment"
-  },
-  {
-    "objectID": "game-design-doc.html#mission-and-vision",
-    "href": "game-design-doc.html#mission-and-vision",
-    "title": "Game Design Document",
-    "section": "",
-    "text": "The vision is to create a world sized sanctuary you can share; a safe digital space to find comfort, excitement, and joy in solitude or alongside your people.\nThe mission is to redefine our lived experiences by creating a digital world that fosters experiences as meaningful as the ones from the physical world."
+    "text": "Solara is a stylized open-globe action-adventure fantasy game with support for up to 64 simultaneous players and built from the ground up for physical immersion.\nThe world of Solara falls increasingly to darkness. The residents have abandoned their homes for shelter within the last standing city of Solara. The majority of the population has turned into mindless beasts. You awaken as a resident of Solara. Does the will of a hero or the will of beasts awaken with you?\nTake on the world alone or form an adventurer’s guild in a fantastical, yet-dangerous, quest to eradicate darkness and retake Solara. Explore the land to discover lost treasures, uncover knowledge, and unravel its mysteries. Master your trade or become a jack of all trades. You determine your path.\n\n\n\nNo Mans Sky, while it took some time, eventually demonstrated the incredible power of procedural generation. Their implementation has resulted in a mind-bending sci-fi exploration game that has captivated me for hundreds of hours.\nZelda: Breathe of the Wild is an illustrious open-world action adventure game with some basic RPG elements. The simple, yet compelling style and mechanics contributes to a world that breathes.\nOG virtual reality rpg games like Zenith: The Last City, Karnage Chronicles, and Vengeful Rites that first immersed me in fantasy worlds."
   },
   {
     "objectID": "game-design-doc.html#game-description",
     "href": "game-design-doc.html#game-description",
-    "title": "Game Design Document",
+    "title": "Solara Game Design Document",
     "section": "",
-    "text": "INSERT WORKING TITLE is a open-globe action adventure game with support for up to 64 simultaneous players and built from the ground up for physical immersion."
+    "text": "Solara is a stylized open-globe action-adventure fantasy game with support for up to 64 simultaneous players and built from the ground up for physical immersion.\nThe world of Solara falls increasingly to darkness. The residents have abandoned their homes for shelter within the last standing city of Solara. The majority of the population has turned into mindless beasts. You awaken as a resident of Solara. Does the will of a hero or the will of beasts awaken with you?\nTake on the world alone or form an adventurer’s guild in a fantastical, yet-dangerous, quest to eradicate darkness and retake Solara. Explore the land to discover lost treasures, uncover knowledge, and unravel its mysteries. Master your trade or become a jack of all trades. You determine your path."
   },
   {
     "objectID": "game-design-doc.html#inspirations",
     "href": "game-design-doc.html#inspirations",
-    "title": "Game Design Document",
+    "title": "Solara Game Design Document",
     "section": "",
-    "text": "No Mans Sky\nZelda BOTW\nZenith: The Last City, Karnage Chronicles, Vengeful Rites\nSo much anime"
+    "text": "No Mans Sky, while it took some time, eventually demonstrated the incredible power of procedural generation. Their implementation has resulted in a mind-bending sci-fi exploration game that has captivated me for hundreds of hours.\nZelda: Breathe of the Wild is an illustrious open-world action adventure game with some basic RPG elements. The simple, yet compelling style and mechanics contributes to a world that breathes.\nOG virtual reality rpg games like Zenith: The Last City, Karnage Chronicles, and Vengeful Rites that first immersed me in fantasy worlds."
+  },
+  {
+    "objectID": "game-design-doc.html#gameplay",
+    "href": "game-design-doc.html#gameplay",
+    "title": "Solara Game Design Document",
+    "section": "Gameplay",
+    "text": "Gameplay\nThe world is filled with distinct characters and environments that drive fresh quest opportunities. Dungeons and encampments can be taken down for experience and looted for treasure. Mastering a trade will prove valuable in the ultimate quest to defeat the world boss and restore the world’s peace."
+  },
+  {
+    "objectID": "game-design-doc.html#character",
+    "href": "game-design-doc.html#character",
+    "title": "Solara Game Design Document",
+    "section": "Character",
+    "text": "Character\nCharacters are all humanoids that exist in the world, playable and non-playable. The following stats apply to both.\n\nCharacter stats\n\nPhysical stats\nA character has three physical stats:\n\nVitality - determines how much damage a character can take. A character’s base vitality stat is 100 life points.\nStrength - determines how much damage a character can deal. A character’s base strength stat is 10 damage. This means that a fully effective blow will deal 10 points in damage to another character’s vitality or an item’s durability.\nSpeed - determines how quickly a character can move. A character’s base walking speed is INSERT WLK_SPD and base running speed is INSERT RUN_SPD.\n\nThese base values are adjusted slightly based on the character build 1. See Table 1 for a generalized overview of this system based on character BMI 2. Physical stats can be further modified via items and consumables.\n\n\n\nTable 1: Impact of BMI on character physical stats\n🔺stat boost ➖no change 🔻stat penalty\n\n\n\n\n\n\n\n\n\n\n\nCharacter\nBMI\nVitality\nStrength\nSpeed\n\n\n\n\nLow\n➖\n🔻\n🔺\n\n\nMed\n➖\n➖\n➖\n\n\nHigh\n🔺\n🔺\n🔻🔻\n\n\n\n\n\n\n\n\nStanding\nA character’s standing indicates their threat and morality to others. The two standing stats are:\n\nLevel - an evolving measure of a character’s accomplishments. It is derived from enemy encounter outcomes. A character’s default and minimum level is 1. The maximum level is 100.\nKarma - an evolving measure of a character’s deeds. It is derived from your actions. The quests you take on, the enemies you kill, and even your environmental impact will dictate your place in this world. The default karma is NEUTRAL. Creating a world with karmic justice requires deep considerations for both the penalties and consequences. See Section 3.1 on Karmic Justice for more.\n\n\n\n\nCharacter creation\n\n\nCharacter controller"
+  },
+  {
+    "objectID": "game-design-doc.html#environment",
+    "href": "game-design-doc.html#environment",
+    "title": "Solara Game Design Document",
+    "section": "Environment",
+    "text": "Environment\nA procedural system for the creation of unique and infinitely difficult worlds3. The globe is fully navigable with diverse landscapes, wildlife, and beasts.\n\nResources\nAll resources can be gathered the environment. The resource types are:\n\nresources - various types and qualities of wood, ore, and fibers\ningredients - various types and qualities of meat, fish, vegetation, and herbs\n\nResources can be gathered and crafted into items by characters engaging in various professions.\n\n\nItems\nItems can be discovered throughout the world or crafted from resources gathered from the environment. The item types are:\n\nwearables are crafted from resources by outfitters\nconsumables are crafted from ingredients by cooks and from resources by alchemists\ntools are crafted from resources by toolmakers\n\nItems have varying durability which can be restored by crafting professionals. Items can also be broken down for partial resources. Items can be carried between worlds and parallel world items are sometimes considered mystic4. Item rarity is based on the reference world’s items. See Table 2 below for rarity calculations.\n\n\n\nTable 2: Rarities\nsee Section 3.2 on the kinds of items\n\n\n\n\n\nRarity\nColor\nThreshold\n\n\n\n\nCommon\nWhite\nThe item makes up no more than 25% of its kind\n\n\nUncommon\nGreen\nThe item makes up less than 25% of its kind\n\n\nRare\nBlue\nThe item makes up less than 5% of its kind\n\n\nLegendary\nPurple\nThe item makes up less than 1% of its kind\n\n\nUnique\nGold\nThe only item of its kind in the world"
+  },
+  {
+    "objectID": "game-design-doc.html#economy",
+    "href": "game-design-doc.html#economy",
+    "title": "Solara Game Design Document",
+    "section": "Economy",
+    "text": "Economy\n\nProfessions\nThere are various professions in resources gathering and crafting.\n\nGathering professions\nThe following professions are dedicated to the gathering of natural resources and ingredients from the environment:\n\nHunter\nFisher\nForager\nMiner\nLogger\n\n\n\nCrafting professions\nThe following professions are dedicated to crafting items from resources gathered from the environment:\n\nOutfitter\nToolmaker\nCook\nBarkeep\nAlchemist\n\n\n\n\nTrade\nResources and items can be traded between characters on the open market or privately. Historical sale prices are public record at the server level.\nOne currency, forever."
+  },
+  {
+    "objectID": "game-design-doc.html#sec-justice",
+    "href": "game-design-doc.html#sec-justice",
+    "title": "Solara Game Design Document",
+    "section": "Karmic Justice",
+    "text": "Karmic Justice\nA character’s karma can range from DARK to HERO. Characters can also have GOOD, BAD, and NEUTRAL karma. A character’s karma can be positively impacted through the completion of hero quests. More importantly, karma penalties are levied for various misdeeds and the consequences bad karma can be steep.\n\nKarmic penalties\n\nCharacter killing and looting\nDark quests\nResource overconsumption and waste\n\n\n\nKarmic consequences\n\nLoss of safe zone and housing\nBeast deformation?\nIncreased drop rates\nBounties"
+  },
+  {
+    "objectID": "game-design-doc.html#sec-itemkinds",
+    "href": "game-design-doc.html#sec-itemkinds",
+    "title": "Solara Game Design Document",
+    "section": "The types and kinds of items",
+    "text": "The types and kinds of items\nThis flowchart describes the types and kinds of items and provides some examples of items that may or not be present in the final game.\n\n\n\n\n\nflowchart LR\nITEMS[(ITEMS)] --&gt; Wearable\nITEMS --&gt; | The types of items | Consumable\nITEMS --&gt; Tool\n\nKindsOfWearables[\"`headwear\n    topwear\n    legwear\n    footwear`\"]\nWearable --&gt; KindsOfWearables\n\nKindsOfConsumables[\"`food\n  drink\n  elixer\n`\"]\nConsumable --&gt; |The kinds of items| KindsOfConsumables\n\nKindsOfTools[\"`sword\n  shield\n  fishing pole\n  pickaxe\n  axe`\"]\nTool --&gt; KindsOfTools\n\nExampleWearables[\"`\n  brass helmet\n  dark tunic\n  leather pants\n  leather boots\n`\"]\n  \nKindsOfWearables --&gt; ExampleWearables\n\nExampleConsumables[\"`\n  beef stew\n  elixer of life\n`\"]\n\nKindsOfConsumables --&gt; |some examples of items|ExampleConsumables\n\nExampleTools[\"`\n  long sword\n  wooden shield\n  bamboo fishing pole\n  iron pickaxe\n  stone axe\n`\"]\n\nKindsOfTools --&gt; ExampleTools"
+  },
+  {
+    "objectID": "game-design-doc.html#documentation",
+    "href": "game-design-doc.html#documentation",
+    "title": "Solara Game Design Document",
+    "section": "Documentation",
+    "text": "Documentation\n\nDefinitions\n\nLived experiences\nThe sum of all experiences that appeal to one or more of the five physical human senses"
   },
   {
     "objectID": "game-design-doc.html#footnotes",
     "href": "game-design-doc.html#footnotes",
-    "title": "Game Design Document",
+    "title": "Solara Game Design Document",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nThis design is inspired by Bonelab’s avatar system and intended to incentivize thoughtful and diverse character creation.↩︎\nBody Mass Index is calculated from a person’s height and weight. While this measure is considered imperfect for real-world applications, it provides a single measure from which base stats can be derived.↩︎"
+    "text": "Footnotes\n\n\nThis design is inspired by Bonelab’s avatar system and intended to incentivize thoughtful and diverse character creation.↩︎\nBody Mass Index is calculated from a person’s height and weight. While this measure is considered imperfect for real-world applications, it provides a single measure from which base stats can be derived.↩︎\nA procedural system combines parameters for switching between categorical values and random sampling for continuous values. Note that available parameters and probability curves will likely be impacted by other values.↩︎\nA parallel world is one whose environment produces any number of distinct resources and ingredients not available in the reference world. An item is considered mystic if it is located in a world without access to the resources it is crafted.↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "The mission is to improve our lived experiences by creating digital worlds that foster experiences as meaningful as the ones from the physical world.\nThe vision is to create worlds filled with sanctuary and adventure. And to empower people to create and share their worlds."
+  },
+  {
+    "objectID": "index.html#studio-mission-vision",
+    "href": "index.html#studio-mission-vision",
+    "title": "About",
+    "section": "",
+    "text": "The mission is to improve our lived experiences by creating digital worlds that foster experiences as meaningful as the ones from the physical world.\nThe vision is to create worlds filled with sanctuary and adventure. And to empower people to create and share their worlds."
   }
 ]

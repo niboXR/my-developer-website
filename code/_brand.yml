@@ -1,0 +1,22 @@
+color:
+  palette:
+    lime: "#a2e436"
+    dark-grey: "#222222"
+    blue: "#ddeaf1"
+  background: 
+    light: white 
+    dark: dark-grey
+  foreground: 
+    light: black 
+    dark: white
+  primary: lime
+
+# logo: 
+#   medium: logo.png
+
+typography:
+  fonts:
+    - family: Jura
+      source: google
+  base: Jura
+  headings: Jura
