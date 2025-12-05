@@ -66,21 +66,6 @@ These base values are adjusted slightly based on the character build [^1]. See @
 
 [^2]: Body Mass Index is calculated from a person's height and weight. While this measure is considered imperfect for real-world applications, it provides a single measure from which base stats can be derived.
 
-+-----------+----------+----------+-------+
-| Character | Vitality | Strength | Speed |
-|           |          |          |       |
-| BMI       |          |          |       |
-+===========+==========+==========+=======+
-| Low       | ➖       | 🔻       | 🔺    |
-+-----------+----------+----------+-------+
-| Med       | ➖       | ➖       | ➖    |
-+-----------+----------+----------+-------+
-| High      | 🔺       | 🔺       | 🔻🔻  |
-+-----------+----------+----------+-------+
-
-: Impact of BMI on character physical stats\
-🔺stat boost ➖no change 🔻stat penalty {#tbl-1}
-
 #### Standing
 
 A character's standing indicates their threat and morality to others. The two standing stats are:
@@ -119,20 +104,68 @@ Items can be discovered throughout the world or crafted from resources gathered 
 
 -   **tools** are crafted from resources by toolmakers
 
-Items have varying **durability** which can be restored by crafting professionals. Items can also be broken down for partial resources. Items can be carried between worlds and parallel world items are sometimes considered mystic[^4]. Item rarity is based on the reference world's items. See @tbl-2 below for rarity calculations.
+Every item in `r params$GameTitle` will fit into one of these types. Below is a visual representation of our item hierarchy.
 
-[^4]: A parallel world is one whose environment produces any number of distinct resources and ingredients not available in the reference world. An item is considered mystic if it is located in a world without access to the resources it is crafted.
+```{mermaid}
+flowchart LR
+ITEMS[(ITEMS)] --> Wearable
+ITEMS --> | The types of items | Consumable
+ITEMS --> Tool
 
-| Rarity    | Color  | Threshold                                      |
-|-----------|--------|------------------------------------------------|
-| Common    | White  | The item makes up no more than 25% of its kind |
-| Uncommon  | Green  | The item makes up less than 25% of its kind    |
-| Rare      | Blue   | The item makes up less than 5% of its kind     |
-| Legendary | Purple | The item makes up less than 1% of its kind     |
-| Unique    | Gold   | The only item of its kind in the world         |
+KindsOfWearables["`headwear
+    topwear
+    legwear
+    footwear`"]
+Wearable --> KindsOfWearables
 
-: Rarities\
-see @sec-itemkinds on the kinds of items {#tbl-2}
+KindsOfConsumables["`food
+  drink
+  elixer
+`"]
+Consumable --> |The kinds of items| KindsOfConsumables
+
+KindsOfTools["`sword
+  shield
+  fishing pole
+  pickaxe
+  axe`"]
+Tool --> KindsOfTools
+
+ExampleWearables["`
+  brass helmet
+  dark tunic
+  leather pants
+  leather boots
+`"]
+  
+KindsOfWearables --> ExampleWearables
+
+ExampleConsumables["`
+  beef stew
+  elixer of life
+`"]
+
+KindsOfConsumables --> |some examples of items|ExampleConsumables
+
+ExampleTools["`
+  long sword
+  wooden shield
+  bamboo fishing pole
+  iron pickaxe
+  stone axe
+`"]
+
+KindsOfTools --> ExampleTools
+
+
+```
+
+
+Items have varying **durability** which can be restored by crafting professionals. Items can also be broken down for partial resources. Items can be carried between worlds and parallel world items are sometimes considered exotic[^4]. Item rarity is based on the reference world's items. See @tbl-2 below for rarity calculations.
+
+## The types and kinds of items {#sec-itemkinds}
+
+[^4]: A parallel world is one whose environment produces any number of distinct resources and ingredients not available in `r params$GameTitle`. An item is considered exotic if it is located in a world without access to the resources it is crafted.
 
 ## Economy
 
@@ -193,60 +226,35 @@ A character's karma can range from **DARK** to **HERO**. Characters can also hav
 -   Increased drop rates
 -   Bounties
 
-## The types and kinds of items {#sec-itemkinds}
 
-This flowchart describes the types and kinds of items and provides some examples of items that may or not be present in the final game.
+# Tables and Figures
 
-```{mermaid}
-flowchart LR
-ITEMS[(ITEMS)] --> Wearable
-ITEMS --> | The types of items | Consumable
-ITEMS --> Tool
+## Physical stats
++-----------+----------+----------+-------+
+| Character | Vitality | Strength | Speed |
+|           |          |          |       |
+| BMI       |          |          |       |
++===========+==========+==========+=======+
+| Low       | ➖       | 🔻       | 🔺    |
++-----------+----------+----------+-------+
+| Med       | ➖       | ➖       | ➖    |
++-----------+----------+----------+-------+
+| High      | 🔺       | 🔺       | 🔻🔻  |
++-----------+----------+----------+-------+
 
-KindsOfWearables["`headwear
-    topwear
-    legwear
-    footwear`"]
-Wearable --> KindsOfWearables
+: Impact of BMI on character physical stats\
+🔺stat boost ➖no change 🔻stat penalty {#tbl-1}
 
-KindsOfConsumables["`food
-  drink
-  elixer
-`"]
-Consumable --> |The kinds of items| KindsOfConsumables
+## Item Rarities
 
-KindsOfTools["`sword
-  shield
-  fishing pole
-  pickaxe
-  axe`"]
-Tool --> KindsOfTools
+| Rarity    | Color  | Threshold                                      |
+|-----------|--------|------------------------------------------------|
+| Common    | White  | The item makes up no more than 25% of its kind |
+| Uncommon  | Green  | The item makes up less than 25% of its kind    |
+| Rare      | Blue   | The item makes up less than 5% of its kind     |
+| Legendary | Purple | The item makes up less than 1% of its kind     |
+| Unique    | Gold   | The only item of its kind in the world         |
 
-ExampleWearables["`
-  brass helmet
-  dark tunic
-  leather pants
-  leather boots
-`"]
-  
-KindsOfWearables --> ExampleWearables
+: Rarities\
+{#tbl-2}
 
-ExampleConsumables["`
-  beef stew
-  elixer of life
-`"]
-
-KindsOfConsumables --> |some examples of items|ExampleConsumables
-
-ExampleTools["`
-  long sword
-  wooden shield
-  bamboo fishing pole
-  iron pickaxe
-  stone axe
-`"]
-
-KindsOfTools --> ExampleTools
-
-
-```

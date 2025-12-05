@@ -309,6 +309,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   <li><a href="#items" id="toc-items" class="nav-link" data-scroll-target="#items">Items</a></li>
   </ul></li>
+  <li><a href="#sec-itemkinds" id="toc-sec-itemkinds" class="nav-link" data-scroll-target="#sec-itemkinds">The types and kinds of items</a></li>
   <li><a href="#economy" id="toc-economy" class="nav-link" data-scroll-target="#economy">Economy</a>
   <ul class="collapse">
   <li><a href="#sec-professions" id="toc-sec-professions" class="nav-link" data-scroll-target="#sec-professions">Professions</a></li>
@@ -322,7 +323,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#karmic-penalties" id="toc-karmic-penalties" class="nav-link" data-scroll-target="#karmic-penalties">Karmic penalties</a></li>
   <li><a href="#karmic-consequences" id="toc-karmic-consequences" class="nav-link" data-scroll-target="#karmic-consequences">Karmic consequences</a></li>
   </ul></li>
-  <li><a href="#sec-itemkinds" id="toc-sec-itemkinds" class="nav-link" data-scroll-target="#sec-itemkinds">The types and kinds of items</a></li>
+  </ul></li>
+  <li><a href="#tables-and-figures" id="toc-tables-and-figures" class="nav-link" data-scroll-target="#tables-and-figures">Tables and Figures</a>
+  <ul class="collapse">
+  <li><a href="#physical-stats-1" id="toc-physical-stats-1" class="nav-link" data-scroll-target="#physical-stats-1">Physical stats</a></li>
+  <li><a href="#item-rarities" id="toc-item-rarities" class="nav-link" data-scroll-target="#item-rarities">Item Rarities</a></li>
   </ul></li>
   </ul>
 <div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://github.com/users/niboXR/projects/3"><i class="bi bi-github"></i>Project tasks and timeline</a></li></ul></div></nav>
@@ -388,53 +393,6 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Speed</strong> - determines how quickly a character can move. A character’s base walking speed is <strong>INSERT WLK_SPD</strong> and base running speed is <strong>INSERT RUN_SPD</strong>.</p></li>
 </ul>
 <p>These base values are adjusted slightly based on the character build <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. See <a href="#tbl-1" class="quarto-xref">Table&nbsp;1</a> for a generalized overview of this system based on character BMI <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Physical stats can be further modified via items and consumables.</p>
-<div id="tbl-1" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Impact of BMI on character physical stats<br>
-🔺stat boost ➖no change 🔻stat penalty
-</figcaption>
-<div aria-describedby="tbl-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 15%">
-<col style="width: 15%">
-<col style="width: 11%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Character</p>
-<p>BMI</p></th>
-<th>Vitality</th>
-<th>Strength</th>
-<th>Speed</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Low</td>
-<td>➖</td>
-<td>🔻</td>
-<td>🔺</td>
-</tr>
-<tr class="even">
-<td>Med</td>
-<td>➖</td>
-<td>➖</td>
-<td>➖</td>
-</tr>
-<tr class="odd">
-<td>High</td>
-<td>🔺</td>
-<td>🔺</td>
-<td>🔻🔻</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
 </section>
 <section id="standing" class="level4">
 <h4 class="anchored" data-anchor-id="standing">Standing</h4>
@@ -472,116 +430,7 @@ Table&nbsp;1: Impact of BMI on character physical stats<br>
 <li><p><strong>consumables</strong> are crafted from ingredients by cooks and from resources by alchemists</p></li>
 <li><p><strong>tools</strong> are crafted from resources by toolmakers</p></li>
 </ul>
-<p>Items have varying <strong>durability</strong> which can be restored by crafting professionals. Items can also be broken down for partial resources. Items can be carried between worlds and parallel world items are sometimes considered mystic<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. Item rarity is based on the reference world’s items. See <a href="#tbl-2" class="quarto-xref">Table&nbsp;2</a> below for rarity calculations.</p>
-<div id="tbl-2" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: Rarities<br>
-see <a href="#sec-itemkinds" class="quarto-xref">Section&nbsp;3.2</a> on the kinds of items
-</figcaption>
-<div aria-describedby="tbl-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Rarity</th>
-<th>Color</th>
-<th>Threshold</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Common</td>
-<td>White</td>
-<td>The item makes up no more than 25% of its kind</td>
-</tr>
-<tr class="even">
-<td>Uncommon</td>
-<td>Green</td>
-<td>The item makes up less than 25% of its kind</td>
-</tr>
-<tr class="odd">
-<td>Rare</td>
-<td>Blue</td>
-<td>The item makes up less than 5% of its kind</td>
-</tr>
-<tr class="even">
-<td>Legendary</td>
-<td>Purple</td>
-<td>The item makes up less than 1% of its kind</td>
-</tr>
-<tr class="odd">
-<td>Unique</td>
-<td>Gold</td>
-<td>The only item of its kind in the world</td>
-</tr>
-</tbody>
-</table>
-</div>
-</figure>
-</div>
-</section>
-</section>
-<section id="economy" class="level2">
-<h2 class="anchored" data-anchor-id="economy">Economy</h2>
-<section id="sec-professions" class="level3">
-<h3 class="anchored" data-anchor-id="sec-professions">Professions</h3>
-<p>There are various professions in resources gathering and crafting.</p>
-<section id="gathering-professions" class="level4">
-<h4 class="anchored" data-anchor-id="gathering-professions">Gathering professions</h4>
-<p>The following professions are dedicated to the gathering of natural resources and ingredients from the environment:</p>
-<ul>
-<li><p>Hunter</p></li>
-<li><p>Fisher</p></li>
-<li><p>Forager</p></li>
-<li><p>Miner</p></li>
-<li><p>Logger</p></li>
-</ul>
-</section>
-<section id="crafting-professions" class="level4">
-<h4 class="anchored" data-anchor-id="crafting-professions">Crafting professions</h4>
-<p>The following professions are dedicated to crafting items from resources gathered from the environment:</p>
-<ul>
-<li><p>Outfitter</p></li>
-<li><p>Toolmaker</p></li>
-<li><p>Cook</p></li>
-<li><p>Barkeep</p></li>
-<li><p>Alchemist</p></li>
-</ul>
-</section>
-</section>
-<section id="trade" class="level3">
-<h3 class="anchored" data-anchor-id="trade">Trade</h3>
-<p>Resources and items can be traded between characters on the open market or privately. Historical sale prices are public record at the server level.</p>
-<p>One currency, forever.</p>
-</section>
-</section>
-</section>
-<section id="addendum" class="level1">
-<h1>Addendum</h1>
-<section id="sec-justice" class="level2">
-<h2 class="anchored" data-anchor-id="sec-justice">Karmic Justice</h2>
-<p>A character’s karma can range from <strong>DARK</strong> to <strong>HERO</strong>. Characters can also have <strong>GOOD</strong>, <strong>BAD</strong>, and <strong>NEUTRAL</strong> karma. A character’s karma can be positively impacted through the completion of hero quests. More importantly, karma penalties are levied for various misdeeds and the consequences bad karma can be steep.</p>
-<section id="karmic-penalties" class="level3">
-<h3 class="anchored" data-anchor-id="karmic-penalties">Karmic penalties</h3>
-<ul>
-<li>Character killing and looting</li>
-<li>Dark quests</li>
-<li>Resource overconsumption and waste</li>
-</ul>
-</section>
-<section id="karmic-consequences" class="level3">
-<h3 class="anchored" data-anchor-id="karmic-consequences">Karmic consequences</h3>
-<ul>
-<li>Loss of safe zone and housing</li>
-<li>Beast deformation?</li>
-<li>Increased drop rates</li>
-<li>Bounties</li>
-</ul>
-</section>
-</section>
-<section id="sec-itemkinds" class="level2">
-<h2 class="anchored" data-anchor-id="sec-itemkinds">The types and kinds of items</h2>
-<p>This flowchart describes the types and kinds of items and provides some examples of items that may or not be present in the final game.</p>
+<p>Every item in Solara will fit into one of these types. Below is a visual representation of our item hierarchy.</p>
 <div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -643,6 +492,171 @@ KindsOfTools --&gt; ExampleTools
 </div>
 </div>
 </div>
+<p>Items have varying <strong>durability</strong> which can be restored by crafting professionals. Items can also be broken down for partial resources. Items can be carried between worlds and parallel world items are sometimes considered exotic<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. Item rarity is based on the reference world’s items. See <a href="#tbl-2" class="quarto-xref">Table&nbsp;2</a> below for rarity calculations.</p>
+</section>
+</section>
+<section id="sec-itemkinds" class="level2">
+<h2 class="anchored" data-anchor-id="sec-itemkinds">The types and kinds of items</h2>
+</section>
+<section id="economy" class="level2">
+<h2 class="anchored" data-anchor-id="economy">Economy</h2>
+<section id="sec-professions" class="level3">
+<h3 class="anchored" data-anchor-id="sec-professions">Professions</h3>
+<p>There are various professions in resources gathering and crafting.</p>
+<section id="gathering-professions" class="level4">
+<h4 class="anchored" data-anchor-id="gathering-professions">Gathering professions</h4>
+<p>The following professions are dedicated to the gathering of natural resources and ingredients from the environment:</p>
+<ul>
+<li><p>Hunter</p></li>
+<li><p>Fisher</p></li>
+<li><p>Forager</p></li>
+<li><p>Miner</p></li>
+<li><p>Logger</p></li>
+</ul>
+</section>
+<section id="crafting-professions" class="level4">
+<h4 class="anchored" data-anchor-id="crafting-professions">Crafting professions</h4>
+<p>The following professions are dedicated to crafting items from resources gathered from the environment:</p>
+<ul>
+<li><p>Outfitter</p></li>
+<li><p>Toolmaker</p></li>
+<li><p>Cook</p></li>
+<li><p>Barkeep</p></li>
+<li><p>Alchemist</p></li>
+</ul>
+</section>
+</section>
+<section id="trade" class="level3">
+<h3 class="anchored" data-anchor-id="trade">Trade</h3>
+<p>Resources and items can be traded between characters on the open market or privately. Historical sale prices are public record at the server level.</p>
+<p>One currency, forever.</p>
+</section>
+</section>
+</section>
+<section id="addendum" class="level1">
+<h1>Addendum</h1>
+<section id="sec-justice" class="level2">
+<h2 class="anchored" data-anchor-id="sec-justice">Karmic Justice</h2>
+<p>A character’s karma can range from <strong>DARK</strong> to <strong>HERO</strong>. Characters can also have <strong>GOOD</strong>, <strong>BAD</strong>, and <strong>NEUTRAL</strong> karma. A character’s karma can be positively impacted through the completion of hero quests. More importantly, karma penalties are levied for various misdeeds and the consequences bad karma can be steep.</p>
+<section id="karmic-penalties" class="level3">
+<h3 class="anchored" data-anchor-id="karmic-penalties">Karmic penalties</h3>
+<ul>
+<li>Character killing and looting</li>
+<li>Dark quests</li>
+<li>Resource overconsumption and waste</li>
+</ul>
+</section>
+<section id="karmic-consequences" class="level3">
+<h3 class="anchored" data-anchor-id="karmic-consequences">Karmic consequences</h3>
+<ul>
+<li>Loss of safe zone and housing</li>
+<li>Beast deformation?</li>
+<li>Increased drop rates</li>
+<li>Bounties</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="tables-and-figures" class="level1">
+<h1>Tables and Figures</h1>
+<section id="physical-stats-1" class="level2">
+<h2 class="anchored" data-anchor-id="physical-stats-1">Physical stats</h2>
+<div id="tbl-1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Impact of BMI on character physical stats<br>
+🔺stat boost ➖no change 🔻stat penalty
+</figcaption>
+<div aria-describedby="tbl-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 15%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Character</p>
+<p>BMI</p></th>
+<th>Vitality</th>
+<th>Strength</th>
+<th>Speed</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Low</td>
+<td>➖</td>
+<td>🔻</td>
+<td>🔺</td>
+</tr>
+<tr class="even">
+<td>Med</td>
+<td>➖</td>
+<td>➖</td>
+<td>➖</td>
+</tr>
+<tr class="odd">
+<td>High</td>
+<td>🔺</td>
+<td>🔺</td>
+<td>🔻🔻</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="item-rarities" class="level2">
+<h2 class="anchored" data-anchor-id="item-rarities">Item Rarities</h2>
+<div id="tbl-2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Rarities<br>
+
+</figcaption>
+<div aria-describedby="tbl-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Rarity</th>
+<th>Color</th>
+<th>Threshold</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Common</td>
+<td>White</td>
+<td>The item makes up no more than 25% of its kind</td>
+</tr>
+<tr class="even">
+<td>Uncommon</td>
+<td>Green</td>
+<td>The item makes up less than 25% of its kind</td>
+</tr>
+<tr class="odd">
+<td>Rare</td>
+<td>Blue</td>
+<td>The item makes up less than 5% of its kind</td>
+</tr>
+<tr class="even">
+<td>Legendary</td>
+<td>Purple</td>
+<td>The item makes up less than 1% of its kind</td>
+</tr>
+<tr class="odd">
+<td>Unique</td>
+<td>Gold</td>
+<td>The only item of its kind in the world</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 
 
 </section>
@@ -655,7 +669,7 @@ KindsOfTools --&gt; ExampleTools
 <li id="fn1"><p>This design is inspired by Bonelab’s avatar system and intended to incentivize thoughtful and diverse character creation.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Body Mass Index is calculated from a person’s height and weight. While this measure is considered imperfect for real-world applications, it provides a single measure from which base stats can be derived.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>A procedural system combines parameters for switching between categorical values and random sampling for continuous values. Note that available parameters and probability curves will likely be impacted by other values.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>A parallel world is one whose environment produces any number of distinct resources and ingredients not available in the reference world. An item is considered mystic if it is located in a world without access to the resources it is crafted.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>A parallel world is one whose environment produces any number of distinct resources and ingredients not available in Solara. An item is considered exotic if it is located in a world without access to the resources it is crafted.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
