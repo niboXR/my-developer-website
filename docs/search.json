@@ -14,8 +14,8 @@
     "text": "The mission is to improve our lived experiences by creating digital worlds that foster experiences as meaningful as the ones from the physical world.\nThe vision is to create worlds filled with sanctuary and adventure. And to empower people to create and share their worlds."
   },
   {
-    "objectID": "index.html#studio-mission-vision",
-    "href": "index.html#studio-mission-vision",
+    "objectID": "index.html#mission-vision",
+    "href": "index.html#mission-vision",
     "title": "About Open Interactive Labs",
     "section": "",
     "text": "The mission is to improve our lived experiences by creating digital worlds that foster experiences as meaningful as the ones from the physical world.\nThe vision is to create worlds filled with sanctuary and adventure. And to empower people to create and share their worlds."
@@ -124,12 +124,5 @@
     "title": "Solara Game Design Document",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nThis design is inspired by Bonelab’s avatar system and intended to incentivize thoughtful and diverse character creation.↩︎\nBody Mass Index is calculated from a person’s height and weight. While this measure is considered imperfect for real-world applications, it provides a single measure from which base stats can be derived.↩︎\nA procedural system combines parameters for switching between categorical values and random sampling for continuous values. Note that available parameters and probability curves will likely be impacted by other values.↩︎"
-  },
-  {
-    "objectID": "index.html#mission-vision",
-    "href": "index.html#mission-vision",
-    "title": "About Open Interactive Labs",
-    "section": "",
-    "text": "The mission is to improve our lived experiences by creating digital worlds that foster experiences as meaningful as the ones from the physical world.\nThe vision is to create worlds filled with sanctuary and adventure. And to empower people to create and share their worlds."
   }
 ]

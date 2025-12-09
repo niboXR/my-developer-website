@@ -7,7 +7,7 @@ project:
     - game-design-doc.qmd
     - technical-docs.qmd
 website: 
-  title: OI Labs
+  title: oi !abs
   navbar:
     search: false
     # tools:
