@@ -5,7 +5,7 @@ project:
   render: 
     - index.qmd
     - game-design-doc.qmd
-    - technical-docs.qmd
+    - research.qmd
 website: 
   title: "oi !abs"
   navbar:
@@ -19,8 +19,12 @@ website:
     #         href: https://github.com/users/niboXR/projects/3
     #background: dark
     left:
+      - href: index.qmd
+        text: About
       - href: game-design-doc.qmd
         text: Games
+      - href: research.qmd
+        text: Research
     # right:
     #   - text: "Theme"
     #     menu:

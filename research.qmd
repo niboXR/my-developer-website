@@ -1,0 +1,6 @@
+---
+title: "Research at oi!"
+format: html
+---
+
+Come back later for more about the research we plan to do here at oi!
