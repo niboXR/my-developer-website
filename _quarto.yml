@@ -8,7 +8,11 @@ project:
     - research.qmd
 website: 
   title: "oi !abs"
+  favicon: assets/images/lime-planet.svg
   navbar:
+    title: false
+    logo: assets/images/lime-full-logo.svg
+    logo-alt: assets/images/black-planet.svg
     search: false
     # tools:
     #   - icon: github

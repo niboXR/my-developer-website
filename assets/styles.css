@@ -30,10 +30,40 @@
 }
 
 
+
+/**LOGO**/
+
+.navbar-brand-container {
+ 
+  height: 48px !important;     /* Ensures consistency */
+  width: 112px !important;
+  padding: 0 !important;
+  
+}
+
+a.navbar-brand.navbar-brand-logo{
+  
+  
+  height: 48px !important;     /* Ensures consistency */
+  width: 96px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+
+  
+}
+
+.navbar-logo {
+  max-height: 48px !important; /* Adjust the height as needed */
+  height: 48px !important;     /* Ensures consistency */
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+
 /*theme toggle*/
 .quarto-navbar-tools {
-  width: 36px;
-  height: 36px;
+  width: 48px;
+  height: 48px;
 }
 a.quarto-color-scheme-toggle.quarto-navigation-tool.px-1 {
 }
